@@ -1,24 +1,26 @@
 {
   "files": {
-    "main.css": "/viziya/static/css/main.2694bd6e.chunk.css",
-    "main.js": "/viziya/static/js/main.4bc513b3.chunk.js",
-    "main.js.map": "/viziya/static/js/main.4bc513b3.chunk.js.map",
+    "main.css": "/viziya/static/css/main.b6c22dd8.chunk.css",
+    "main.js": "/viziya/static/js/main.91e941f1.chunk.js",
+    "main.js.map": "/viziya/static/js/main.91e941f1.chunk.js.map",
     "runtime-main.js": "/viziya/static/js/runtime-main.ccf43397.js",
     "runtime-main.js.map": "/viziya/static/js/runtime-main.ccf43397.js.map",
     "static/js/2.0288bdb4.chunk.js": "/viziya/static/js/2.0288bdb4.chunk.js",
     "static/js/2.0288bdb4.chunk.js.map": "/viziya/static/js/2.0288bdb4.chunk.js.map",
     "index.html": "/viziya/index.html",
-    "static/css/main.2694bd6e.chunk.css.map": "/viziya/static/css/main.2694bd6e.chunk.css.map",
+    "static/css/main.b6c22dd8.chunk.css.map": "/viziya/static/css/main.b6c22dd8.chunk.css.map",
     "static/js/2.0288bdb4.chunk.js.LICENSE.txt": "/viziya/static/js/2.0288bdb4.chunk.js.LICENSE.txt",
-    "static/media/style.css": "/viziya/static/media/home-bg.a46badbc.svg",
+    "static/media/style.css": "/viziya/static/media/project1.00edd8bc.svg",
     "static/media/logo-white.a49d28e0.svg": "/viziya/static/media/logo-white.a49d28e0.svg",
     "static/media/more-button.0d09fbc1.svg": "/viziya/static/media/more-button.0d09fbc1.svg",
+    "static/media/next.7e1935dc.svg": "/viziya/static/media/next.7e1935dc.svg",
+    "static/media/prev.0894e092.svg": "/viziya/static/media/prev.0894e092.svg",
     "static/media/project-box1.11d56da2.svg": "/viziya/static/media/project-box1.11d56da2.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.ccf43397.js",
     "static/js/2.0288bdb4.chunk.js",
-    "static/css/main.2694bd6e.chunk.css",
-    "static/js/main.4bc513b3.chunk.js"
+    "static/css/main.b6c22dd8.chunk.css",
+    "static/js/main.91e941f1.chunk.js"
   ]
 }
