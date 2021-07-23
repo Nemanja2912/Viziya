@@ -1,0 +1,407 @@
+// SCSS Navigation
+
+// Import Fonts
+@font-face {
+  font-family: "Metronic Pro";
+  src: url("../assets/fonts/MetronicPro-SemiBold.eot");
+  src: local("Metronic Pro SemiBold"), local("MetronicPro-SemiBold"),
+    url("../assets/fonts/MetronicPro-SemiBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/fonts/MetronicPro-SemiBold.woff2") format("woff2"),
+    url("../assets/fonts/MetronicPro-SemiBold.woff") format("woff"),
+    url("../assets/fonts/MetronicPro-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Metronic Pro Air";
+  src: url("../assets/fonts/MetronicPro-Thin.eot");
+  src: local("Metronic Pro Thin"), local("MetronicPro-Thin"),
+    url("../assets/fonts/MetronicPro-Thin.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/fonts/MetronicPro-Thin.woff2") format("woff2"),
+    url("../assets/fonts/MetronicPro-Thin.woff") format("woff"),
+    url("../assets/fonts/MetronicPro-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Metronic Pro";
+  src: url("../assets/fonts/MetronicPro-LightItalic.eot");
+  src: local("Metronic Pro Light Italic"), local("MetronicPro-LightItalic"),
+    url("../assets/fonts/MetronicPro-LightItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/fonts/MetronicPro-LightItalic.woff2") format("woff2"),
+    url("../assets/fonts/MetronicPro-LightItalic.woff") format("woff"),
+    url("../assets/fonts/MetronicPro-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Metronic Pro Air";
+  src: url("../assets/fonts/MetronicPro-ThinItalic.eot");
+  src: local("Metronic Pro Thin Italic"), local("MetronicPro-ThinItalic"),
+    url("../assets/fonts/MetronicPro-ThinItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/fonts/MetronicPro-ThinItalic.woff2") format("woff2"),
+    url("../assets/fonts/MetronicPro-ThinItalic.woff") format("woff"),
+    url("../assets/fonts/MetronicPro-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Metronic Pro";
+  src: url("../assets/fonts/MetronicPro-Bold.eot");
+  src: local("Metronic Pro Bold"), local("MetronicPro-Bold"),
+    url("../assets/fonts/MetronicPro-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/fonts/MetronicPro-Bold.woff2") format("woff2"),
+    url("../assets/fonts/MetronicPro-Bold.woff") format("woff"),
+    url("../assets/fonts/MetronicPro-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Metronic Pro";
+  src: url("../assets/fonts/MetronicPro-Black.eot");
+  src: local("Metronic Pro Black"), local("MetronicPro-Black"),
+    url("../assets/fonts/MetronicPro-Black.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/fonts/MetronicPro-Black.woff2") format("woff2"),
+    url("../assets/fonts/MetronicPro-Black.woff") format("woff"),
+    url("../assets/fonts/MetronicPro-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Metronic Pro";
+  src: url("../assets/fonts/MetronicPro-Light.eot");
+  src: local("Metronic Pro Light"), local("MetronicPro-Light"),
+    url("../assets/fonts/MetronicPro-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/fonts/MetronicPro-Light.woff2") format("woff2"),
+    url("../assets/fonts/MetronicPro-Light.woff") format("woff"),
+    url("../assets/fonts/MetronicPro-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Metronic Pro";
+  src: url("../assets/fonts/MetronicPro-SemiBoldItalic.eot");
+  src: local("Metronic Pro SemiBold Italic"),
+    local("MetronicPro-SemiBoldItalic"),
+    url("../assets/fonts/MetronicPro-SemiBoldItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/fonts/MetronicPro-SemiBoldItalic.woff2") format("woff2"),
+    url("../assets/fonts/MetronicPro-SemiBoldItalic.woff") format("woff"),
+    url("../assets/fonts/MetronicPro-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Metronic Pro";
+  src: url("../assets/fonts/MetronicPro-BlackItalic.eot");
+  src: local("Metronic Pro Black Italic"), local("MetronicPro-BlackItalic"),
+    url("../assets/fonts/MetronicPro-BlackItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/fonts/MetronicPro-BlackItalic.woff2") format("woff2"),
+    url("../assets/fonts/MetronicPro-BlackItalic.woff") format("woff"),
+    url("../assets/fonts/MetronicPro-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Metronic Pro";
+  src: url("../assets/fonts/MetronicPro-BoldItalic.eot");
+  src: local("Metronic Pro Bold Italic"), local("MetronicPro-BoldItalic"),
+    url("../assets/fonts/MetronicPro-BoldItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/fonts/MetronicPro-BoldItalic.woff2") format("woff2"),
+    url("../assets/fonts/MetronicPro-BoldItalic.woff") format("woff"),
+    url("../assets/fonts/MetronicPro-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Metronic Pro";
+  src: url("../assets/fonts/MetronicPro-Italic.eot");
+  src: local("Metronic Pro Italic"), local("MetronicPro-Italic"),
+    url("../assets/fonts/MetronicPro-Italic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/fonts/MetronicPro-Italic.woff2") format("woff2"),
+    url("../assets/fonts/MetronicPro-Italic.woff") format("woff"),
+    url("../assets/fonts/MetronicPro-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Metronic Pro";
+  src: url("../assets/fonts/MetronicPro.eot");
+  src: local("Metronic Pro"), local("MetronicPro"),
+    url("../assets/fonts/MetronicPro.eot?#iefix") format("embedded-opentype"),
+    url("../assets/fonts/MetronicPro.woff2") format("woff2"),
+    url("../assets/fonts/MetronicPro.woff") format("woff"),
+    url("../assets/fonts/MetronicPro.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Variables
+$Black_Color: #1f1f1f;
+$White_Color: #ffffff;
+
+// General
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $Black_Color;
+  color: $White_Color;
+  font-size: 16px;
+  font-family: "Metronic Pro";
+}
+
+p {
+  line-height: 26px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.button {
+  background-color: $White_Color;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $Black_Color;
+  width: 100%;
+  font-weight: 300;
+}
+
+// Navigation
+nav {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 240px;
+
+  .language-box {
+    border-left: 0.5px solid transparentize($color: $White_Color, $amount: 0.7);
+    border-bottom: 0.5px solid
+      transparentize($color: $White_Color, $amount: 0.7);
+    border-right: 0.5px solid transparentize($color: $White_Color, $amount: 0.7);
+
+    .language-button {
+      width: 60px;
+      height: 60px;
+
+      border-right: 0.7px solid
+        transparentize($color: $White_Color, $amount: 0.7);
+      border-bottom: 0.5px solid
+        transparentize($color: $White_Color, $amount: 0.7);
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      font-weight: 300;
+    }
+
+    .active {
+      background-color: $White_Color;
+    }
+
+    .language-border-bottom {
+      border-bottom: 0.7px solid
+        transparentize($color: $White_Color, $amount: 0.7);
+    }
+  }
+
+  .logo-box {
+    border-bottom: 0.5px solid
+      transparentize($color: $White_Color, $amount: 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .wrapper-box {
+    border-left: 0.5px solid transparentize($color: $White_Color, $amount: 0.7);
+    border-bottom: 0.5px solid
+      transparentize($color: $White_Color, $amount: 0.7);
+    border-right: 0.5px solid transparentize($color: $White_Color, $amount: 0.7);
+
+    .menu-box {
+      border-bottom: 0.5px solid
+        transparentize($color: $White_Color, $amount: 0.7);
+      height: 180px;
+      display: flex;
+      align-items: flex-end;
+      padding: 20px;
+    }
+  }
+}
+
+// Home-Hero
+
+.home-hero {
+  background-image: url("../assets/image/home-bg.svg");
+  height: 720px;
+  background-position: center;
+  background-size: cover;
+
+  .middle-section {
+    height: 240px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+
+    .heading {
+      border-left: 0.5px solid
+        transparentize($color: $White_Color, $amount: 0.7);
+      border-bottom: 0.5px solid
+        transparentize($color: $White_Color, $amount: 0.7);
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 50px;
+
+      h1 {
+        font-size: 70px;
+        font-weight: 400;
+      }
+
+      p {
+        font-weight: 300;
+      }
+    }
+
+    .empty-box {
+      border-left: 0.5px solid
+        transparentize($color: $White_Color, $amount: 0.7);
+      border-bottom: 0.5px solid
+        transparentize($color: $White_Color, $amount: 0.7);
+      border-right: 0.5px solid
+        transparentize($color: $White_Color, $amount: 0.7);
+    }
+  }
+
+  .bottom-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: 240px;
+
+    .contact-box {
+      border-left: 0.5px solid
+        transparentize($color: $White_Color, $amount: 0.7);
+      border-bottom: 0.5px solid
+        transparentize($color: $White_Color, $amount: 0.7);
+      border-right: 0.5px solid
+        transparentize($color: $White_Color, $amount: 0.7);
+
+      display: flex;
+      align-items: flex-end;
+    }
+
+    .empty-box {
+      border-bottom: 0.5px solid
+        transparentize($color: $White_Color, $amount: 0.7);
+      border-right: 0.5px solid
+        transparentize($color: $White_Color, $amount: 0.7);
+    }
+
+    .project-box {
+      border-bottom: 0.5px solid
+        transparentize($color: $White_Color, $amount: 0.7);
+      border-right: 0.5px solid
+        transparentize($color: $White_Color, $amount: 0.7);
+
+      display: flex;
+      align-items: flex-end;
+    }
+  }
+}
+
+// Home-Projects
+
+.home-projects {
+  border-left: 0.5px solid transparentize($color: $White_Color, $amount: 0.7);
+  border-bottom: 0.5px solid transparentize($color: $White_Color, $amount: 0.7);
+  border-right: 0.5px solid transparentize($color: $White_Color, $amount: 0.7);
+
+  display: grid;
+  grid-template-rows: 150px 810px;
+  grid-template-columns: 1fr 1fr;
+
+  .empty-box {
+    border-right: 0.5px solid transparentize($color: $White_Color, $amount: 0.7);
+  }
+
+  .empty-box2 {
+    border-bottom: 0.5px solid
+      transparentize($color: $White_Color, $amount: 0.7);
+  }
+
+  .left {
+    padding-left: 50px;
+    padding-right: 70px;
+
+    h2 {
+      font-size: 60px;
+      font-weight: 400;
+    }
+
+    p {
+      font-weight: 300;
+    }
+  }
+
+  .right {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 270px 270px 270px;
+
+    .project-box {
+      height: 100%;
+      width: 100%;
+      padding: 30px;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      border-left: 0.5px solid
+        transparentize($color: $White_Color, $amount: 0.7);
+      border-bottom: 0.5px solid
+        transparentize($color: $White_Color, $amount: 0.7);
+      border-right: 0.5px solid
+        transparentize($color: $White_Color, $amount: 0.7);
+
+      h4 {
+        width: 165px;
+        font-weight: 300;
+      }
+
+      .bottom {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+}
