@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/viziya/static/css/main.e1a2e9bf.chunk.css",
-    "main.js": "/viziya/static/js/main.aac5d221.chunk.js",
-    "main.js.map": "/viziya/static/js/main.aac5d221.chunk.js.map",
+    "main.js": "/viziya/static/js/main.14362dc7.chunk.js",
+    "main.js.map": "/viziya/static/js/main.14362dc7.chunk.js.map",
     "runtime-main.js": "/viziya/static/js/runtime-main.ccf43397.js",
     "runtime-main.js.map": "/viziya/static/js/runtime-main.ccf43397.js.map",
     "static/js/2.0288bdb4.chunk.js": "/viziya/static/js/2.0288bdb4.chunk.js",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.ccf43397.js",
     "static/js/2.0288bdb4.chunk.js",
     "static/css/main.e1a2e9bf.chunk.css",
-    "static/js/main.aac5d221.chunk.js"
+    "static/js/main.14362dc7.chunk.js"
   ]
 }
