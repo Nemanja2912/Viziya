@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/viziya/static/css/main.8c6aa569.chunk.css",
-    "main.js": "/viziya/static/js/main.5c161a9b.chunk.js",
-    "main.js.map": "/viziya/static/js/main.5c161a9b.chunk.js.map",
+    "main.css": "/viziya/static/css/main.d0fb5ebd.chunk.css",
+    "main.js": "/viziya/static/js/main.d91c29d6.chunk.js",
+    "main.js.map": "/viziya/static/js/main.d91c29d6.chunk.js.map",
     "runtime-main.js": "/viziya/static/js/runtime-main.ccf43397.js",
     "runtime-main.js.map": "/viziya/static/js/runtime-main.ccf43397.js.map",
-    "static/js/2.3fdda5c7.chunk.js": "/viziya/static/js/2.3fdda5c7.chunk.js",
-    "static/js/2.3fdda5c7.chunk.js.map": "/viziya/static/js/2.3fdda5c7.chunk.js.map",
+    "static/js/2.71c902ee.chunk.js": "/viziya/static/js/2.71c902ee.chunk.js",
+    "static/js/2.71c902ee.chunk.js.map": "/viziya/static/js/2.71c902ee.chunk.js.map",
     "index.html": "/viziya/index.html",
-    "static/css/main.8c6aa569.chunk.css.map": "/viziya/static/css/main.8c6aa569.chunk.css.map",
-    "static/js/2.3fdda5c7.chunk.js.LICENSE.txt": "/viziya/static/js/2.3fdda5c7.chunk.js.LICENSE.txt",
+    "static/css/main.d0fb5ebd.chunk.css.map": "/viziya/static/css/main.d0fb5ebd.chunk.css.map",
+    "static/js/2.71c902ee.chunk.js.LICENSE.txt": "/viziya/static/js/2.71c902ee.chunk.js.LICENSE.txt",
     "static/media/style.css": "/viziya/static/media/project1.00edd8bc.svg",
     "static/media/arrow-down.f2118d26.svg": "/viziya/static/media/arrow-down.f2118d26.svg",
     "static/media/black-location.78d1f59a.svg": "/viziya/static/media/black-location.78d1f59a.svg",
@@ -26,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ccf43397.js",
-    "static/js/2.3fdda5c7.chunk.js",
-    "static/css/main.8c6aa569.chunk.css",
-    "static/js/main.5c161a9b.chunk.js"
+    "static/js/2.71c902ee.chunk.js",
+    "static/css/main.d0fb5ebd.chunk.css",
+    "static/js/main.d91c29d6.chunk.js"
   ]
 }
