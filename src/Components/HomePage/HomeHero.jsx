@@ -1,13 +1,11 @@
 import React from "react";
 // Import Components
-import Navigation from "./Navigation";
-import Button from "./Button";
+import Button from "./../Button";
 
 const HomeHero = () => {
   return (
     <div className="home-hero">
       <div className="container">
-        <Navigation />
         <div className="middle-section">
           <div className="heading">
             <h1>Architecture and design</h1>
