@@ -23,9 +23,7 @@ const ProjectCard = (props) => {
           backgroundPosition: "center",
           backgroundSize: "cover",
         }}
-      >
-        desno
-      </div>
+      ></div>
     </div>
   );
 };

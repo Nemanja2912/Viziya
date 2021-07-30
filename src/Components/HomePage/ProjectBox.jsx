@@ -12,11 +12,13 @@ const ProjectBox = (props) => {
       }}
       className="project-box"
     >
-      <h4>{props.projectName}</h4>
+      <div className="content">
+        <h4>{props.projectName}</h4>
 
-      <div className={`bottom ${props.active ? "active" : ""}`}>
-        <p>More</p>
-        <img src={moreButton} alt="" />
+        <div className={`bottom ${props.active ? "active" : ""}`}>
+          <p>More</p>
+          <img src={moreButton} alt="" />
+        </div>
       </div>
     </div>
   );

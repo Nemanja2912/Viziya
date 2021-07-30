@@ -2,6 +2,8 @@ import React, { useContext, useState } from "react";
 // Import images
 import logoWhite from "../../assets/image/logo-white.svg";
 import logoBlack from "../../assets/image/logo-black.svg";
+import logoWhiteMin from "../../assets/image/logo-white-min.svg";
+import logoBlackMin from "../../assets/image/logo-black-min.svg";
 // Import components
 import LanguageButton from "./LanguageButton";
 // Import Context
@@ -18,7 +20,13 @@ const Navigation = (props) => {
         <LanguageButton lang="EN" />
       </div>
       <div className="logo-box">
-        <img src={props.black ? logoBlack : logoWhite} alt="" />
+        <picture>
+          <source
+            media="(min-width: 1101px)"
+            srcset={props.black ? logoBlack : logoWhite}
+          />
+          <img src={props.black ? logoBlackMin : logoWhiteMin} alt="" />
+        </picture>
       </div>
       <div className="wrapper-box">
         <div className="menu-box">

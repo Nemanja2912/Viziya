@@ -6,13 +6,14 @@ import ContactForm from "../ContactPage/ContactForm";
 import Navigation from "./Navigation";
 // Import Context
 import { navMenuOpen } from "../../App";
+import Button from "../Button";
 
 const NavigationMenu = () => {
   const navMenu = useContext(navMenuOpen);
 
   return (
     <div className="navigation-menu">
-      <div className="container">
+      <div style={{ height: `${window.innerHeight}px` }} className="container">
         <Navigation close />
         <div className="nav-body">
           <div className="left">
@@ -33,8 +34,6 @@ const NavigationMenu = () => {
                     About us
                   </p>
                 </Link>
-              </div>
-              <div className="items-list">
                 <Link to="/services">
                   <p onClick={navMenu} className="item">
                     Services
@@ -48,15 +47,22 @@ const NavigationMenu = () => {
               </div>
             </div>
             <div className="cont-info">
-              <p>office@viziyaarch.com</p>
-              <p>+7 (916) 45-34-33</p>
+              <p className="desktop">office@viziyaarch.com</p>
+              <p className="desktop">+7 (916) 45-34-33</p>
+              <div className="mob">
+                <Button text="Contact us" />
+                <p className="opacity">© 1999 – 2021 Viziya</p>
+              </div>
             </div>
           </div>
           <div className="right">
             <div className="text">
-              <p>Leave a request to start working together</p>
+              <p className="title">
+                Leave a request{" "}
+                <span className="hide">to start working together</span>
+              </p>
+              <ContactForm />
             </div>
-            <ContactForm />
           </div>
         </div>
       </div>

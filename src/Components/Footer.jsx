@@ -41,7 +41,11 @@ const Footer = () => {
             </div>
           </div>
           <div className="box3">
-            <p>© 1999 – 2021 Viziya architecture</p>
+            <div className="created2">
+              <p className="opacity">Develop by</p>
+              <p className="name2">Mine Dev</p>
+            </div>
+            <p className="opacity">© 1999 – 2021 Viziya</p>
           </div>
         </div>
       </div>

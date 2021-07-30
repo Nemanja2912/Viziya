@@ -7,6 +7,7 @@ const HomeHero = () => {
     <div className="home-hero">
       <div className="container">
         <div className="middle-section">
+          <div className="empty-box2"></div>
           <div className="heading">
             <h1>Architecture and design</h1>
             <p>
