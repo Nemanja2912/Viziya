@@ -37,7 +37,7 @@ const Footer = () => {
           <div className="box2">
             <div>
               <p className="opacity">Our e-mail</p>
-              <p>office@viziyaarch.com</p>
+              <p>office@viziya.rs</p>
             </div>
           </div>
           <div className="box3">

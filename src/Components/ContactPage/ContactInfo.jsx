@@ -12,7 +12,7 @@ const ContactInfo = () => {
       <div className="email">
         <div>
           <p className="opacity">Our e-mail</p>
-          <p>office@viziyaarch.com</p>
+          <p>office@viziya.rs</p>
         </div>
       </div>
     </div>

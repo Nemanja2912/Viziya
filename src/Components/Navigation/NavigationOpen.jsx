@@ -47,7 +47,7 @@ const NavigationMenu = () => {
               </div>
             </div>
             <div className="cont-info">
-              <p className="desktop">office@viziyaarch.com</p>
+              <p className="desktop">office@viziya.rs</p>
               <p className="desktop">+7 (916) 45-34-33</p>
               <div className="mob">
                 <Button text="Contact us" />

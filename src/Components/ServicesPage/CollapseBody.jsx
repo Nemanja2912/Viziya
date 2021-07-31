@@ -6,24 +6,18 @@ const CollapseBody = (props) => {
       <div className="image">
         <img src={props.image} alt="" />
       </div>
-      <div className="text">
-        <div className="top">
-          <p className="description">{props.description}</p>
-        </div>
-        <div className="bottom">
-          <div className="bottom-text-wrapper">
-            <p className="price">
-              <span>Price starting at: </span>
-              <span>${props.price}/m2</span>
-            </p>
-            <p>
-              *the rate depends on the project size and other specifications
-            </p>
-          </div>
-        </div>
+      <div className="top">
+        <p className="description">{props.description}</p>
       </div>
-      <div className="empty-box1"></div>
-      <div className="empty-box2"></div>
+      <div className="bottom">
+        <p className="price">
+          <span>Price starting at: </span>
+          <span>${props.price}/m2</span>
+        </p>
+        <p className="smaller">
+          *the rate depends on the project size and other specifications
+        </p>
+      </div>
     </div>
   );
 };
