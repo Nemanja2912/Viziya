@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/viziya/static/css/main.06b425ba.chunk.css",
-    "main.js": "/viziya/static/js/main.a5e1d094.chunk.js",
-    "main.js.map": "/viziya/static/js/main.a5e1d094.chunk.js.map",
+    "main.css": "/viziya/static/css/main.34506efb.chunk.css",
+    "main.js": "/viziya/static/js/main.dcca18e5.chunk.js",
+    "main.js.map": "/viziya/static/js/main.dcca18e5.chunk.js.map",
     "runtime-main.js": "/viziya/static/js/runtime-main.ccf43397.js",
     "runtime-main.js.map": "/viziya/static/js/runtime-main.ccf43397.js.map",
     "static/js/2.71c902ee.chunk.js": "/viziya/static/js/2.71c902ee.chunk.js",
     "static/js/2.71c902ee.chunk.js.map": "/viziya/static/js/2.71c902ee.chunk.js.map",
     "index.html": "/viziya/index.html",
-    "static/css/main.06b425ba.chunk.css.map": "/viziya/static/css/main.06b425ba.chunk.css.map",
+    "static/css/main.34506efb.chunk.css.map": "/viziya/static/css/main.34506efb.chunk.css.map",
     "static/js/2.71c902ee.chunk.js.LICENSE.txt": "/viziya/static/js/2.71c902ee.chunk.js.LICENSE.txt",
     "static/media/style.css": "/viziya/static/media/project1.00edd8bc.svg",
     "static/media/arrow-down.f2118d26.svg": "/viziya/static/media/arrow-down.f2118d26.svg",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.ccf43397.js",
     "static/js/2.71c902ee.chunk.js",
-    "static/css/main.06b425ba.chunk.css",
-    "static/js/main.a5e1d094.chunk.js"
+    "static/css/main.34506efb.chunk.css",
+    "static/js/main.dcca18e5.chunk.js"
   ]
 }
