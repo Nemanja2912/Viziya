@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/viziya/static/css/main.86aa4687.chunk.css",
-    "main.js": "/viziya/static/js/main.c02d12db.chunk.js",
-    "main.js.map": "/viziya/static/js/main.c02d12db.chunk.js.map",
+    "main.js": "/viziya/static/js/main.5b6f557a.chunk.js",
+    "main.js.map": "/viziya/static/js/main.5b6f557a.chunk.js.map",
     "runtime-main.js": "/viziya/static/js/runtime-main.ccf43397.js",
     "runtime-main.js.map": "/viziya/static/js/runtime-main.ccf43397.js.map",
     "static/js/2.38c12a2d.chunk.js": "/viziya/static/js/2.38c12a2d.chunk.js",
@@ -19,6 +19,7 @@
     "static/media/logo-black.89f609db.svg": "/viziya/static/media/logo-black.89f609db.svg",
     "static/media/logo-white-min.fa11d79c.svg": "/viziya/static/media/logo-white-min.fa11d79c.svg",
     "static/media/logo-white.4ce44a45.svg": "/viziya/static/media/logo-white.4ce44a45.svg",
+    "static/media/logo-white.fb65e07e.png": "/viziya/static/media/logo-white.fb65e07e.png",
     "static/media/map.80a28f76.svg": "/viziya/static/media/map.80a28f76.svg",
     "static/media/more-button.0d09fbc1.svg": "/viziya/static/media/more-button.0d09fbc1.svg",
     "static/media/next.7e1935dc.svg": "/viziya/static/media/next.7e1935dc.svg",
@@ -40,6 +41,6 @@
     "static/js/runtime-main.ccf43397.js",
     "static/js/2.38c12a2d.chunk.js",
     "static/css/main.86aa4687.chunk.css",
-    "static/js/main.c02d12db.chunk.js"
+    "static/js/main.5b6f557a.chunk.js"
   ]
 }
