@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/viziya/static/css/main.9536725c.chunk.css",
-    "main.js": "/viziya/static/js/main.9004620d.chunk.js",
-    "main.js.map": "/viziya/static/js/main.9004620d.chunk.js.map",
+    "main.css": "/viziya/static/css/main.d42a9164.chunk.css",
+    "main.js": "/viziya/static/js/main.7cd5c09b.chunk.js",
+    "main.js.map": "/viziya/static/js/main.7cd5c09b.chunk.js.map",
     "runtime-main.js": "/viziya/static/js/runtime-main.ccf43397.js",
     "runtime-main.js.map": "/viziya/static/js/runtime-main.ccf43397.js.map",
-    "static/js/2.38c12a2d.chunk.js": "/viziya/static/js/2.38c12a2d.chunk.js",
-    "static/js/2.38c12a2d.chunk.js.map": "/viziya/static/js/2.38c12a2d.chunk.js.map",
+    "static/js/2.19fb6ec6.chunk.js": "/viziya/static/js/2.19fb6ec6.chunk.js",
+    "static/js/2.19fb6ec6.chunk.js.map": "/viziya/static/js/2.19fb6ec6.chunk.js.map",
     "index.html": "/viziya/index.html",
-    "static/css/main.9536725c.chunk.css.map": "/viziya/static/css/main.9536725c.chunk.css.map",
-    "static/js/2.38c12a2d.chunk.js.LICENSE.txt": "/viziya/static/js/2.38c12a2d.chunk.js.LICENSE.txt",
+    "static/css/main.d42a9164.chunk.css.map": "/viziya/static/css/main.d42a9164.chunk.css.map",
+    "static/js/2.19fb6ec6.chunk.js.LICENSE.txt": "/viziya/static/js/2.19fb6ec6.chunk.js.LICENSE.txt",
     "static/media/style.css": "/viziya/static/media/image-area.ef656958.svg",
     "static/media/arrow-down.f2118d26.svg": "/viziya/static/media/arrow-down.f2118d26.svg",
     "static/media/black-location.78d1f59a.svg": "/viziya/static/media/black-location.78d1f59a.svg",
     "static/media/contact-image.0eb9f0e7.svg": "/viziya/static/media/contact-image.0eb9f0e7.svg",
     "static/media/location.24437d43.svg": "/viziya/static/media/location.24437d43.svg",
     "static/media/logo-black-min.427347d2.svg": "/viziya/static/media/logo-black-min.427347d2.svg",
-    "static/media/logo-black.f462a3c0.png": "/viziya/static/media/logo-black.f462a3c0.png",
+    "static/media/logo-black.3ef1c399.svg": "/viziya/static/media/logo-black.3ef1c399.svg",
     "static/media/logo-white-min.fa11d79c.svg": "/viziya/static/media/logo-white-min.fa11d79c.svg",
-    "static/media/logo-white.fb65e07e.png": "/viziya/static/media/logo-white.fb65e07e.png",
+    "static/media/logo-white.51a2ad7d.svg": "/viziya/static/media/logo-white.51a2ad7d.svg",
     "static/media/map.80a28f76.svg": "/viziya/static/media/map.80a28f76.svg",
     "static/media/more-button.0d09fbc1.svg": "/viziya/static/media/more-button.0d09fbc1.svg",
     "static/media/next.7e1935dc.svg": "/viziya/static/media/next.7e1935dc.svg",
@@ -38,8 +38,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ccf43397.js",
-    "static/js/2.38c12a2d.chunk.js",
-    "static/css/main.9536725c.chunk.css",
-    "static/js/main.9004620d.chunk.js"
+    "static/js/2.19fb6ec6.chunk.js",
+    "static/css/main.d42a9164.chunk.css",
+    "static/js/main.7cd5c09b.chunk.js"
   ]
 }
