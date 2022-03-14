@@ -13,7 +13,8 @@
       "formName": "Your name",
       "formEmail": "Your email",
       "formMessage": "Your message",
-      "send": "Send"
+      "send": "Send",
+      "mobButton": "Email us"
     },
     "home": {
       "homeHeroTitle": "Architecture and design",
