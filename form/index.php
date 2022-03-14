@@ -1,43 +1,23 @@
 <?php
-header("Access-Control-Allow-Origin: *");
-$rest_json = file_get_contents("php://input");
-$_POST = json_decode($rest_json, true);
+    $visitor_email = $_POST['email'];
+  
+    $email_from = 'noreply@viziya.com';
 
-if (empty($_POST['fname']) && empty($_POST['email'])) die();
+    $email_subject = "New Form submission";
 
-if ($_POST)
-	{
+	$email_body = "You have received email $visitor_email";
 
-	// set response code - 200 OK
+    $to = "info@mine-dev.com";
 
-	http_response_code(200);
-	$subject = $_POST['name'];
-	$to = "info@mine-dev.com";
-	$from = $_POST['email'];
+    $headers = "From: $email_from \r\n";
 
-	// data
+    $headers .= "Reply-To: $visitor_email \r\n";
 
-	$msg = $_POST['number'] . $_POST['message'];
+    mail($to,$email_subject,$email_body,$headers);
 
-	// Headers
-
-	$headers = "MIME-Version: 1.0\r\n";
-	$headers.= "Content-type: text/html; charset=UTF-8\r\n";
-	$headers.= "From: <" . $from . ">";
-	mail($to, $subject, $msg, $headers);
-
-	// echo json_encode( $_POST );
-
-	echojson_encode(array(
-		"sent" => true
-	));
-	}
-  else
-	{
-
-	// tell the user about error
-
-	echojson_encode(["sent" => false, "message" => "Something went wrong"]);
-	}
-
+    if (    mail($to,$email_subject,$email_body,$headers)) {
+echo "ok";
+} else {
+echo "error";
+}
 ?>
