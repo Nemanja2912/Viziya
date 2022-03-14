@@ -816,6 +816,7 @@ nav .wrapper-box .menu-box p {
 @media (max-width: 1100px) {
   .navigation-menu .nav-body .left .items-list p {
     font-size: 45px;
+    line-height: 50px;
   }
 }
 
@@ -4013,7 +4014,6 @@ footer .container .opacity {
 
 @media (max-width: 850px) {
   .services-page .services-collapse .button-tabs .collapse-button {
-    padding-right: 15px;
     text-align: center;
   }
 }
