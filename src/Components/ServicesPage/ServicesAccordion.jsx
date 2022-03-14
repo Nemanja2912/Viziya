@@ -3,19 +3,26 @@ import React from "react";
 import AccordionTitle from "./AccordionTitle";
 import AccordionBox from "./AccordionBox";
 
-const ServicesAccordion = () => {
+const ServicesAccordion = ({ content }) => {
   return (
     <div className="services-accordion">
-      <AccordionTitle />
+      <AccordionTitle title={content.accordionTitle} />
 
-      {accordionList.map((item) => (
-        <AccordionBox title={item.title} description={item.description} />
+      {content.accordion?.map((item, itemIndex) => (
+        <AccordionBox
+          key={itemIndex}
+          title={item.title}
+          description={item.description}
+          body={item.body}
+        />
       ))}
 
       <div className="accordion-box">
         <div className="text">
-          <p className="title"></p>
-          <p className="description"></p>
+          <div className="top">
+            <p className="title"></p>
+            <p className="description"></p>
+          </div>
         </div>
         <div className="button"></div>
       </div>
@@ -24,41 +31,3 @@ const ServicesAccordion = () => {
 };
 
 export default ServicesAccordion;
-
-const accordionList = [
-  {
-    title: "BRIEFING",
-    description:
-      "Dividing land into functionality zones: playground, pool, barbeque etc. Delivered in the form of sketch.",
-  },
-  {
-    title: "BRIEFING",
-    description:
-      "Dividing land into functionality zones: playground, pool, barbeque etc. Delivered in the form of sketch.",
-  },
-  {
-    title: "BRIEFING",
-    description:
-      "Dividing land into functionality zones: playground, pool, barbeque etc. Delivered in the form of sketch.",
-  },
-  {
-    title: "BRIEFING",
-    description:
-      "Dividing land into functionality zones: playground, pool, barbeque etc. Delivered in the form of sketch.",
-  },
-  {
-    title: "BRIEFING",
-    description:
-      "Dividing land into functionality zones: playground, pool, barbeque etc. Delivered in the form of sketch.",
-  },
-  {
-    title: "BRIEFING",
-    description:
-      "Dividing land into functionality zones: playground, pool, barbeque etc. Delivered in the form of sketch.",
-  },
-  {
-    title: "BRIEFING",
-    description:
-      "Dividing land into functionality zones: playground, pool, barbeque etc. Delivered in the form of sketch.",
-  },
-];

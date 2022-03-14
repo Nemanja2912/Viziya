@@ -1,7 +1,16 @@
-import React from 'react';
+import React from "react";
 
-const LanguageButton = (props) => {
-    return <p className="language-button">{props.lang}</p>;
-}
- 
+const LanguageButton = ({ lang, active, setLanguage, langBar }) => {
+  return (
+    <p
+      className={`language-button  ${active ? "active" : ""} ${
+        !langBar && "not-show"
+      }`}
+      onClick={setLanguage}
+    >
+      {lang}
+    </p>
+  );
+};
+
 export default LanguageButton;

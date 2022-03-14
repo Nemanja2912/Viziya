@@ -8,41 +8,73 @@ import Navigation from "./Navigation";
 import { navMenuOpen } from "../../App";
 import Button from "../Button";
 
-const NavigationMenu = () => {
+const NavigationMenu = ({ language, setLanguage, active, content }) => {
   const navMenu = useContext(navMenuOpen);
 
+  const currentYear = new Date().getFullYear();
+
   return (
-    <div className="navigation-menu">
+    <div className={`navigation-menu ${active ? "navigation-menu-open" : ""}`}>
       <div style={{ height: `${window.innerHeight}px` }} className="container">
-        <Navigation close />
+        <Navigation
+          content={content}
+          close
+          setLanguage={setLanguage}
+          language={language}
+        />
         <div className="nav-body">
           <div className="left">
             <div className="top">
               <div className="items-list">
                 <Link to="/">
-                  <p onClick={navMenu} className="item">
-                    Home
-                  </p>
+                  <div className="nav-item-wrapper">
+                    <p
+                      onClick={navMenu}
+                      className={`item hidden-item  ${active && "item1 show"}`}
+                    >
+                      {content.homePage}
+                    </p>
+                  </div>
                 </Link>
                 <Link to="/projects">
-                  <p onClick={navMenu} className="item">
-                    Projects
-                  </p>
+                  <div className="nav-item-wrapper">
+                    <p
+                      onClick={navMenu}
+                      className={`item hidden-item  ${active && "item2 show"}`}
+                    >
+                      {content.projectsPage}
+                    </p>
+                  </div>
                 </Link>
                 <Link to="/about">
-                  <p onClick={navMenu} className="item">
-                    About us
-                  </p>
+                  <div className="nav-item-wrapper">
+                    <p
+                      onClick={navMenu}
+                      className={`item hidden-item  ${active && "item3 show"}`}
+                    >
+                      {content.aboutUsPage}
+                    </p>
+                  </div>
                 </Link>
                 <Link to="/services">
-                  <p onClick={navMenu} className="item">
-                    Services
-                  </p>
+                  <div className="nav-item-wrapper">
+                    <p
+                      onClick={navMenu}
+                      className={`item hidden-item  ${active && "item4 show"}`}
+                    >
+                      {content.servicesPage}
+                    </p>
+                  </div>
                 </Link>
                 <Link to="/contact">
-                  <p onClick={navMenu} className="item">
-                    Contact
-                  </p>
+                  <div className="nav-item-wrapper">
+                    <p
+                      onClick={navMenu}
+                      className={`item hidden-item  ${active && "item5 show"}`}
+                    >
+                      {content.contactsPage}
+                    </p>
+                  </div>
                 </Link>
               </div>
             </div>
@@ -50,18 +82,21 @@ const NavigationMenu = () => {
               <p className="desktop">office@viziya.rs</p>
               <p className="desktop">+7 (916) 45-34-33</p>
               <div className="mob">
-                <Button text="Contact us" />
-                <p className="opacity">© 1999 – 2021 Viziya</p>
+                <a href="mailto:office@viziya.rs" className="button">
+                  {content.mobButton}
+                </a>
+
+                <p className="opacity">© 1999 – {currentYear} Viziya</p>
               </div>
             </div>
           </div>
           <div className="right">
             <div className="text">
               <p className="title">
-                Leave a request{" "}
-                <span className="hide">to start working together</span>
+                {content.formText}{" "}
+                <span className="hide">{content.formText2}</span>
               </p>
-              <ContactForm />
+              <ContactForm content={content} />
             </div>
           </div>
         </div>

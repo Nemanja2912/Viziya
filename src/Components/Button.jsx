@@ -1,7 +1,12 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Button = (props) => {
-  return <p className="button">{props.text}</p>;
+  return (
+    <NavLink to={`/${props.link}`} className="button">
+      {props.text}
+    </NavLink>
+  );
 };
 
 export default Button;

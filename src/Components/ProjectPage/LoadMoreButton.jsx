@@ -1,9 +1,11 @@
 import React from "react";
 
-const LoadMoreButton = () => {
+const LoadMoreButton = ({ handleLoadMore, disable }) => {
   return (
-    <div className="load-more">
-      <p>Load more</p>
+    <div onClick={handleLoadMore} className="load-more">
+      <p style={{ display: disable ? "none" : "", cursor: "pointer" }}>
+        Load more
+      </p>
     </div>
   );
 };

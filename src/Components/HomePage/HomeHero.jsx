@@ -1,29 +1,27 @@
 import React from "react";
 // Import Components
 import Button from "./../Button";
+import { NavLink } from "react-router-dom";
 
-const HomeHero = () => {
+const HomeHero = ({ content }) => {
   return (
     <div className="home-hero">
       <div className="container">
         <div className="middle-section">
           <div className="empty-box2"></div>
           <div className="heading">
-            <h1>Architecture and design</h1>
-            <p>
-              We design buildings and interiors; streetscapes and landscapes;
-              graphics and wayfinding.
-            </p>
+            <h1>{content.homeHeroTitle}</h1>
+            <p>{content.homeHeroDescription}</p>
           </div>
           <div className="empty-box"></div>
         </div>
         <div className="bottom-section">
           <div className="contact-box">
-            <Button text="Contact us" />
+            <Button text={content.homeHeroButton1} link="contact" />
           </div>
           <div className="empty-box"></div>
           <div className="project-box">
-            <Button text="All project" />
+            <Button text={content.homeHeroButton2} link="projects" />
           </div>
         </div>
       </div>

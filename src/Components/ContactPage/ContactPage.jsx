@@ -8,14 +8,14 @@ import FullImage from "./../FullImage";
 import TextArea from "./TextArea";
 import ContactForm from "./ContactForm";
 
-const ContactPage = () => {
+const ContactPage = ({ nav, content }) => {
   return (
     <div className="contact-page container">
-      <ContactTitle />
-      <ContactInfo />
-      <FullImage image={contactImage} />
-      <TextArea />
-      <ContactForm />
+      <ContactTitle content={content} />
+      <ContactInfo content={content} />
+      <FullImage image={contactImage} content={content} />
+      <TextArea content={content} />
+      <ContactForm content={nav} />
     </div>
   );
 };

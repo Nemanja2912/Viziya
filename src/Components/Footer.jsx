@@ -2,8 +2,9 @@ import React from "react";
 // Import images
 import logo from "../assets/image/logo-white.svg";
 import location from "../assets/image/location.svg";
+import { NavLink } from "react-router-dom";
 
-const Footer = () => {
+const Footer = ({ content, nav }) => {
   return (
     <footer>
       <div className="container">
@@ -12,40 +13,50 @@ const Footer = () => {
             <img src={logo} className="logo" alt="" />
             <div className="location">
               <p>
-                Vojvode stepe 141, <br /> Belgrade, Serbia
+                {content.address} <br /> {content.city}
               </p>
               <img src={location} alt="" />
             </div>
           </div>
           <div className="created">
-            <p className="opacity">Develop by</p>
-            <p>Mine Dev</p>
+            <p className="opacity">{content.created}</p>
+            <p>{content.author}</p>
           </div>
         </div>
         <div className="middle">
-          <p>Home</p>
-          <p>About us</p>
-          <p>Our service</p>
-          <p>Projects</p>
-          <p>Contract</p>
+          <NavLink to="/">
+            <p>{nav.homePage}</p>
+          </NavLink>
+          <NavLink to="/about">
+            <p>{nav.aboutUsPage}</p>
+          </NavLink>
+          <NavLink to="/services">
+            <p>{nav.servicesPage}</p>
+          </NavLink>
+          <NavLink to="/projects">
+            <p>{nav.projectsPage}</p>
+          </NavLink>
+          <NavLink to="/contact">
+            <p>{nav.contactsPage}</p>
+          </NavLink>
         </div>
         <div className="right">
           <div className="box1">
-            <p className="opacity">Our phone number</p>
-            <p>+7 (916) 45-34-33</p>
+            <p className="opacity">{content.phoneLabel}</p>
+            <p>{content.phone}</p>
           </div>
           <div className="box2">
             <div>
-              <p className="opacity">Our e-mail</p>
-              <p>office@viziya.rs</p>
+              <p className="opacity">{content.emailLabel}</p>
+              <p>{content.email}</p>
             </div>
           </div>
           <div className="box3">
             <div className="created2">
-              <p className="opacity">Develop by</p>
-              <p className="name2">Mine Dev</p>
+              <p className="opacity">{content.created}</p>
+              <p className="name2">{content.author}</p>
             </div>
-            <p className="opacity">© 1999 – 2021 Viziya</p>
+            <p className="opacity">{content.copyrights}</p>
           </div>
         </div>
       </div>

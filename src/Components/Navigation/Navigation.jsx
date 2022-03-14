@@ -8,32 +8,53 @@ import logoBlackMin from "../../assets/image/logo-black-min.svg";
 import LanguageButton from "./LanguageButton";
 // Import Context
 import { navMenuOpen } from "../../App";
+import { NavLink } from "react-router-dom";
 
-const Navigation = (props) => {
+const langList = ["RU", "SR", "EN"];
+
+const Navigation = ({ black, language, setLanguage, close, content }) => {
   const navMenu = useContext(navMenuOpen);
 
+  const [langBar, setLangBar] = useState(false);
+
   return (
-    <nav className={`container ${props.black ? "blackNav" : ""}`}>
-      <div className="language-box">
-        <LanguageButton lang="RU" />
-        <LanguageButton lang="SR" />
-        <LanguageButton lang="EN" />
+    <nav className={`container ${black ? "blackNav" : ""}`}>
+      <div className="language-box" onClick={() => setLangBar((prev) => !prev)}>
+        {langList.map((lang, langIndex) => (
+          <LanguageButton
+            key={langIndex}
+            lang={lang}
+            active={language === lang}
+            langBar={langBar}
+            setLanguage={() => {
+              if (window.innerWidth <= 650) {
+                if (langBar) {
+                  setLanguage(lang);
+                }
+              } else {
+                setLanguage(lang);
+              }
+            }}
+          />
+        ))}
       </div>
       <div className="logo-box">
-        <picture>
-          <source
-            media="(min-width: 1101px)"
-            srcset={props.black ? logoBlack : logoWhite}
-          />
-          <img src={props.black ? logoBlackMin : logoWhiteMin} alt="" />
-        </picture>
+        <NavLink to="/">
+          <picture>
+            <source
+              media="(min-width: 1101px)"
+              srcSet={black ? logoBlack : logoWhite}
+            />
+            <img src={black ? logoBlackMin : logoWhiteMin} alt="" />
+          </picture>
+        </NavLink>
       </div>
       <div className="wrapper-box">
         <div className="menu-box">
-          {props.close ? (
-            <p onClick={navMenu}>CLOSE</p>
+          {close ? (
+            <p onClick={navMenu}>{content.close}</p>
           ) : (
-            <p onClick={navMenu}>MENU</p>
+            <p onClick={navMenu}>{content.menu}</p>
           )}
         </div>
       </div>

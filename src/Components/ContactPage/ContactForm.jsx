@@ -1,24 +1,71 @@
-import React from "react";
-import Button from "../Button";
+import React, { useState } from "react";
+import axios from "axios";
 
-const ContactForm = () => {
+import CheckMark from "../../assets/image/checkmark.svg";
+
+const ContactForm = ({ content }) => {
+  const [name, setName] = useState();
+  const [email, setEmail] = useState();
+  const [message, setMessage] = useState();
+  const [mailSent, setMailSent] = useState(false);
+  const [error, setError] = useState(null);
+
+  const sendMessage = (e) => {
+    e.preventDefault();
+
+    console.log(`name: ${name}, email: ${email}, message: ${message}`);
+
+    axios({
+      method: "post",
+      url: process.env.PUBLIC_URL + "/form/index.php",
+      headers: { "content-type": "application/json" },
+      data: `this.state`,
+    })
+      .then((result) => {
+        setMailSent(result.data.sent);
+      })
+      .catch((error) => setError(error.message));
+  };
   return (
-    <div className="contact-form">
+    <form className="contact-form" action="#" onSubmit={sendMessage}>
       <div className="name">
-        <input type="name" placeholder="Your name" />
+        <input
+          id="name"
+          name="name"
+          type="text"
+          placeholder={content.formName}
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+        />
       </div>
       <div className="email">
-        <input type="email" placeholder="Your email" />
+        <input
+          id="email"
+          name="email"
+          type="email"
+          placeholder={content.formEmail}
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+        />
       </div>
       <div className="message">
-        <input type="message" placeholder="Your message" />
+        <input
+          id="message"
+          name="message"
+          type="message"
+          placeholder={content.formMessage}
+          value={message}
+          onChange={(e) => setMessage(e.target.value)}
+        />
       </div>
       <div className="empty-box"></div>
       <div className="button-section">
-        <Button text="Send" />
+        <button type="submit" className="button">
+          {mailSent ? <img src={CheckMark} alt="" /> : content.send}
+        </button>
       </div>
       <div className="empty-box eb2"></div>
-    </div>
+    </form>
   );
 };
 
