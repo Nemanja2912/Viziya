@@ -19,12 +19,20 @@ const ContactForm = ({ content }) => {
       method: "post",
       url: process.env.PUBLIC_URL + "/form/index.php",
       headers: { "content-type": "application/json" },
-      data: `this.state`,
+      data: {
+        name: name,
+        email: email,
+        message: message,
+      },
     })
       .then((result) => {
         setMailSent(result.data.sent);
       })
-      .catch((error) => setError(error.message));
+      .catch((error) => {
+        setError(error.message);
+
+        console.log("error:", error);
+      });
   };
   return (
     <form className="contact-form" action="#" onSubmit={sendMessage}>

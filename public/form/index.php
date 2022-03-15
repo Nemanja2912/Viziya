@@ -3,7 +3,7 @@ header("Access-Control-Allow-Origin: *");
 $rest_json = file_get_contents("php://input");
 $_POST = json_decode($rest_json, true);
 
-if (empty($_POST['fname']) && empty($_POST['email'])) die();
+if (empty($_POST['name']) && empty($_POST['email'])) die();
 
 if ($_POST)
 	{
@@ -12,12 +12,12 @@ if ($_POST)
 
 	http_response_code(200);
 	$subject = $_POST['name'];
-	$to = "info@mine-dev.com";
+	$to = "office@viziya.rs";
 	$from = $_POST['email'];
 
 	// data
 
-	$msg = $_POST['number'] . $_POST['message'];
+	$msg = $_POST['message'];
 
 	// Headers
 
@@ -28,9 +28,9 @@ if ($_POST)
 
 	// echo json_encode( $_POST );
 
-	echojson_encode(array(
-		"sent" => true
-	));
+echo json_encode(array(
+        "sent" => true
+    ));
 	}
   else
 	{
