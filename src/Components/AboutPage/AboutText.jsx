@@ -24,7 +24,7 @@ const AboutText = (props) => {
         <MinemationText
           text={props.text}
           animationName="fadeInUp"
-          delay={200}
+          delay={50}
           duration={1000}
           overflowHidden
           scroll={true}
