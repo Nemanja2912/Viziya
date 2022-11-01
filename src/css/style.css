@@ -289,8 +289,14 @@ button {
 }
 
 .close-image {
-  -webkit-clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
-          clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+  -webkit-animation-name: closeImage;
+          animation-name: closeImage;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
 }
 
 .title-univerzal {
@@ -2987,6 +2993,8 @@ footer .container .opacity {
   }
 }
 .project-card .image {
+  -webkit-clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+          clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
   width: 100%;
   background-position: center;
   background-size: cover;

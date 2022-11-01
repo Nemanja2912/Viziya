@@ -76,7 +76,7 @@ const ProjectCard = ({
           </div>
         </div>
         <div
-          className={`image ${startAnimation ? "open-image" : "close-image"}`}
+          className={`image ${startAnimation ? "open-image" : "close-img"}`}
           style={{
             background: `url(${projectImage})`,
             backgroundPosition: "center",

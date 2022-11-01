@@ -39,17 +39,17 @@
           "image": "project1.jpg"
         },
         {
-          "title": "02. Forest house2",
+          "title": "02. Office",
           "desc": "This visualization project is about the building in the historical center of Omsk city, Russia. Initially, it was built as a hotel for the 2018 FIFA world Cup, but the project was not completed as supposed.",
           "image": "project2.jpg"
         },
         {
-          "title": "Forest house3",
+          "title": "03. Appartment",
           "desc": "This visualization project is about the building in the historical center of Omsk city, Russia. Initially, it was built as a hotel for the 2018 FIFA world Cup, but the project was not completed as supposed.",
           "image": "project3.jpg"
         },
         {
-          "title": "Forest house4",
+          "title": "Luxury appartment",
           "desc": "This visualization project is about the building in the historical center of Omsk city, Russia. Initially, it was built as a hotel for the 2018 FIFA world Cup, but the project was not completed as supposed.",
           "image": "project4.jpg"
         }
@@ -70,8 +70,8 @@
     "footer": {
       "address": "Vojvode Stepe 141,",
       "city": "Belgrade, Serbia",
-      "created": "Created by",
-      "author": "Mine Dev",
+      "created": "Copyright",
+      "author": "",
       "phoneLabel": "Our phone number",
       "phone": "+7 (916) 45-34-33",
       "emailLabel": "Our e-mail",
@@ -83,38 +83,39 @@
       "projectList": [
         {
           "title": "Forest house",
-          "sqm": "261 sq.m.",
+          "sqm": "550 sq.m.",
           "location": "Switzerland",
           "image": "project1.jpg",
           "slider": [
-            "project1/project1.jpg",
-            "project1/project2.jpg",
-            "project1/project3.jpg",
-            "project1/project4.jpg"
+            "project1/1.jpg",
+            "project1/2.jpg",
+            "project1/3.jpg",
+            "project1/4.jpg"
           ]
         },
         {
           "title": "Forest house",
           "sqm": "261 sq.m.",
           "location": "Switzerland",
-          "image": "project2.jpg",
+          "image": "project2.png",
           "slider": [
-            "project1/project1.jpg",
-            "project1/project2.jpg",
-            "project1/project3.jpg",
-            "project1/project4.jpg"
+            "project2/1.png",
+            "project2/2.png",
+            "project2/3.png",
+            "project2/4.png",
+            "project2/5.png"
           ]
         },
         {
           "title": "Forest house",
-          "sqm": "261 sq.m.",
+          "sqm": "298 sq.m.",
           "location": "Switzerland",
           "image": "project3.jpg",
           "slider": [
-            "project1/project1.jpg",
-            "project1/project2.jpg",
-            "project1/project3.jpg",
-            "project1/project4.jpg"
+            "project3/1.jpg",
+            "project3/2.jpg",
+            "project3/3.jpg",
+            "project3/4.jpg"
           ]
         },
         {
@@ -123,10 +124,10 @@
           "location": "Switzerland",
           "image": "project4.jpg",
           "slider": [
-            "project1/project1.jpg",
-            "project1/project2.jpg",
-            "project1/project3.jpg",
-            "project1/project4.jpg"
+            "project4/03.jpg",
+            "project4/05.jpg",
+            "project4/06.jpg",
+            "project4/07.jpg"
           ]
         },
         {
@@ -135,10 +136,10 @@
           "location": "Switzerland",
           "image": "project5.jpg",
           "slider": [
-            "project1/project1.jpg",
-            "project1/project2.jpg",
-            "project1/project3.jpg",
-            "project1/project4.jpg"
+            "project5/02.jpg",
+            "project5/03.jpg",
+            "project5/04.jpg",
+            "project5/05.jpg"
           ]
         },
         {
@@ -147,10 +148,10 @@
           "location": "Switzerland",
           "image": "project6.jpg",
           "slider": [
-            "project1/project1.jpg",
-            "project1/project2.jpg",
-            "project1/project3.jpg",
-            "project1/project4.jpg"
+            "project6/01.jpg",
+            "project6/02.jpg",
+            "project6/03.jpg",
+            "project6/04.jpg"
           ]
         },
         {
@@ -159,10 +160,10 @@
           "location": "Switzerland",
           "image": "project7.jpg",
           "slider": [
-            "project1/project1.jpg",
-            "project1/project2.jpg",
-            "project1/project3.jpg",
-            "project1/project4.jpg"
+            "project7/03.jpg",
+            "project7/04.jpg",
+            "project7/05.jpg",
+            "project7/06.jpg"
           ]
         },
         {
@@ -171,106 +172,34 @@
           "location": "Switzerland",
           "image": "project8.jpg",
           "slider": [
-            "project1/project1.jpg",
-            "project1/project2.jpg",
-            "project1/project3.jpg",
-            "project1/project4.jpg"
+            "project8/0.jpg",
+            "project8/1.jpg",
+            "project8/2.jpg",
+            "project8/3.jpg"
           ]
         },
         {
           "title": "Forest house",
           "sqm": "261 sq.m.",
           "location": "Switzerland",
-          "image": "project1.jpg",
+          "image": "project9.jpg",
           "slider": [
-            "project1/project1.jpg",
-            "project1/project2.jpg",
-            "project1/project3.jpg",
-            "project1/project4.jpg"
+            "project9/05.jpg",
+            "project9/04.jpg",
+            "project9/02.jpg",
+            "project9/03.jpg"
           ]
         },
         {
           "title": "Forest house",
           "sqm": "261 sq.m.",
           "location": "Switzerland",
-          "image": "project2.jpg",
+          "image": "project10.jpg",
           "slider": [
-            "project1/project1.jpg",
-            "project1/project2.jpg",
-            "project1/project3.jpg",
-            "project1/project4.jpg"
-          ]
-        },
-        {
-          "title": "Forest house",
-          "sqm": "261 sq.m.",
-          "location": "Switzerland",
-          "image": "project3.jpg",
-          "slider": [
-            "project1/project1.jpg",
-            "project1/project2.jpg",
-            "project1/project3.jpg",
-            "project1/project4.jpg"
-          ]
-        },
-        {
-          "title": "Forest house",
-          "sqm": "261 sq.m.",
-          "location": "Switzerland",
-          "image": "project4.jpg",
-          "slider": [
-            "project1/project1.jpg",
-            "project1/project2.jpg",
-            "project1/project3.jpg",
-            "project1/project4.jpg"
-          ]
-        },
-        {
-          "title": "Forest house",
-          "sqm": "261 sq.m.",
-          "location": "Switzerland",
-          "image": "project5.jpg",
-          "slider": [
-            "project1/project1.jpg",
-            "project1/project2.jpg",
-            "project1/project3.jpg",
-            "project1/project4.jpg"
-          ]
-        },
-        {
-          "title": "Forest house",
-          "sqm": "261 sq.m.",
-          "location": "Switzerland",
-          "image": "project6.jpg",
-          "slider": [
-            "project1/project1.jpg",
-            "project1/project2.jpg",
-            "project1/project3.jpg",
-            "project1/project4.jpg"
-          ]
-        },
-        {
-          "title": "Forest house",
-          "sqm": "261 sq.m.",
-          "location": "Switzerland",
-          "image": "project7.jpg",
-          "slider": [
-            "project1/project1.jpg",
-            "project1/project2.jpg",
-            "project1/project3.jpg",
-            "project1/project4.jpg"
-          ]
-        },
-        {
-          "title": "Forest house",
-          "sqm": "261 sq.m.",
-          "location": "Switzerland",
-          "image": "project8.jpg",
-          "slider": [
-            "project1/project1.jpg",
-            "project1/project2.jpg",
-            "project1/project3.jpg",
-            "project1/project4.jpg"
+            "project10/02-min-2.jpg",
+            "project10/03-min-2.jpg",
+            "project10/04-min-2.jpg",
+            "project10/05-min-2.jpg"
           ]
         }
       ]
@@ -292,52 +221,52 @@
       "note": "*the rate depends on the project size and other specifications",
       "collapse": [
         {
-          "button": "Turnkey interior",
+          "button": "Realization",
           "description": "This service includes 3D visualization, work plans, estimates and completion of the project. All in accordance with your preferences with minimum involvement of yours.",
-          "price": "$75/M2"
+          "price": "$45/M2"
         },
         {
           "button": "Interior design",
-          "description": "2This service includes 3D visualization, work plans, estimates and completion of the project. All in accordance with your preferences with minimum involvement of yours.",
-          "price": "$75/M2"
+          "description": "Nothing is more important than your lifestyle, habits and preferences when it comes to interior design. From dimensions to materials we aim to reflect client’s individuality.",
+          "price": "$55/M2"
         },
         {
           "button": "Architectural design",
-          "description": "3This service includes 3D visualization, work plans, estimates and completion of the project. All in accordance with your preferences with minimum involvement of yours.",
+          "description": "Let us bring your dream home to life. From rough sketch on paper, site preparation to final acceptance of facilities.",
           "price": "$75/M2"
         },
         {
           "button": "Designer supervision",
-          "description": "4This service includes 3D visualization, work plans, estimates and completion of the project. All in accordance with your preferences with minimum involvement of yours.",
-          "price": "$75/M2"
+          "description": "We offer constant supervision for the entire period of the project to ensure all conceptual, construction, engineering elements are fully consistent with the approved design and documentation.",
+          "price": "$35/M2"
         }
       ],
       "accordionTitle": ["ARCHITECTURAL", "DESIGN STEPS"],
       "accordion": [
         {
-          "title": "BRIEFING",
-          "description": "Dividing land into functionality zones: playground, pool, barbeque etc. Delivered in the form of sketch.",
-          "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi itaque, sapiente eligendi atque explicabo quos incidunt dolore vel vero error unde soluta dignissimos sit eius ab beatae ex officia mollitia voluptates earum recusandae pariatur laudantium? Ad velit neque eius, inventore optio error cum, vitae asperiores, praesentiumea minus sit voluptas."
+          "title": "Pre-Design Phase",
+          "description": "Pre-Design is a a general term for what we do before we start designing a building.",
+          "body": "This will include This will include preliminary research on the property owner’s part and the architect. Clients do not always hire an architect for this portion. At our firm we provide pre-design architectural services quite often. This can include helping developers decide if they should purchase a property. We often do a zoning analysis in pre-design to determine what we can build. Land Surveys and site analysis are part of pre-design. The client gets a property survey by a licensed land surveyor, not an architect."
         },
         {
-          "title": "BRIEFING",
-          "description": "Dividing land into functionality zones: playground, pool, barbeque etc. Delivered in the form of sketch.",
-          "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi itaque, sapiente eligendi atque explicabo quos incidunt dolore vel vero error unde soluta dignissimos sit eius ab beatae ex officia mollitia voluptates earum recusandae pariatur laudantium? Ad velit neque eius, inventore optio error cum, vitae asperiores, praesentiumea minus sit voluptas."
+          "title": "Schematic Design",
+          "description": "Schematic Design is the first phase of design. It will account for approximately 15% of the architect’s work.",
+          "body": "Therefore the fees on the entire project as well. Of course, the percentages can fluctuate. In schematic design the architect and the owner discuss the project and any requirements provided by the owner. The architect does precedent research and analysis of the property. The analysis will include zoning and building code issues that may affect the development, as well as site analysis.  Programming is part of schematic design. This is when the client provides the architect with a list of what spaces are going into the building. The architect establishes the size, location, and relationships between all the spaces."
         },
         {
-          "title": "BRIEFING",
-          "description": "Dividing land into functionality zones: playground, pool, barbeque etc. Delivered in the form of sketch.",
-          "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi itaque, sapiente eligendi atque explicabo quos incidunt dolore vel vero error unde soluta dignissimos sit eius ab beatae ex officia mollitia voluptates earum recusandae pariatur laudantium? Ad velit neque eius, inventore optio error cum, vitae asperiores, praesentiumea minus sit voluptas."
+          "title": "Design Development Phase",
+          "description": "The Design Development Phase is going to be approximately 20% of the architects work and fees.",
+          "body": "In Design Development the architect and owner will work together to select materials including interior finishes and products such as windows. doors, fixtures, appliances, etc… The architect will revise the drawings with more specificity and detail than in Schematic Design. Engineering will commence on the structure, plumbing, electrical, heating/ventilation systems, energy analysis and any other project specific systems. At the end of design development, a good deal of product selection and systems design should be progressing. This phase concludes when the interior and exterior design of the building is locked in by the owner and architect. Below is a 3D rendering of a house at completion of design development. The following image is a diagram of the house showing some of the systems and materials in place."
         },
         {
-          "title": "BRIEFING",
-          "description": "Dividing land into functionality zones: playground, pool, barbeque etc. Delivered in the form of sketch.",
-          "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi itaque, sapiente eligendi atque explicabo quos incidunt dolore vel vero error unde soluta dignissimos sit eius ab beatae ex officia mollitia voluptates earum recusandae pariatur laudantium? Ad velit neque eius, inventore optio error cum, vitae asperiores, praesentiumea minus sit voluptas."
+          "title": "Construction Documents",
+          "description": "The Construction Documents Phase is the largest of all the phases for the architect and will be about 40% of the architects work and fees.",
+          "body": "Although the percentage may vary a little from project to project or with Different Architecture Firms. In the construction document phase the architect and engineers finalize all the technical design and engineering including structural engineering and detailing, heating air conditioning and ventilation systems, plumbing, electrical, gas, energy calculations, and all products and materials are selected and scheduled."
         },
         {
-          "title": "BRIEFING",
-          "description": "Dividing land into functionality zones: playground, pool, barbeque etc. Delivered in the form of sketch.",
-          "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi itaque, sapiente eligendi atque explicabo quos incidunt dolore vel vero error unde soluta dignissimos sit eius ab beatae ex officia mollitia voluptates earum recusandae pariatur laudantium? Ad velit neque eius, inventore optio error cum, vitae asperiores, praesentiumea minus sit voluptas."
+          "title": "Bidding",
+          "description": "Bidding should be self explanatory.",
+          "body": "At this time the owner prepares to select the contractor for the job and sign contracts to proceed with construction. This will typically take up 5% of the architects time and fees. Multiple contractors submit bids on the job or the client can directly hire a contractor without getting competitive bids The architect’s role here will be to assist the client. We will answer contractor’s questions, provide any additional documentation if requested by the contractor. This phase can be started at the beginning of the project. You do not need to wait until all of the construction documents are completed but the price will be more accurate if you do."
         }
       ]
     },
@@ -423,8 +352,8 @@
     "footer": {
       "address": "Vojvode Stepe 141,",
       "city": "Belgrade, Serbia",
-      "created": "Created by",
-      "author": "Mine Dev",
+      "created": "Copyright",
+      "author": "",
       "phoneLabel": "Our phone number",
       "phone": "+7 (916) 45-34-33",
       "emailLabel": "Our e-mail",
@@ -680,8 +609,8 @@
     "footer": {
       "address": "Vojvode Stepe 141,",
       "city": "Belgrade, Serbia",
-      "created": "Created by",
-      "author": "Mine Dev",
+      "created": "Copyright",
+      "author": "",
       "phoneLabel": "Our phone number",
       "phone": "+7 (916) 45-34-33",
       "emailLabel": "Our e-mail",

@@ -27,7 +27,7 @@ const Navigation = ({ black, language, setLanguage, close, content }) => {
             active={language === lang}
             langBar={langBar}
             setLanguage={() => {
-              if (lang === "RU") return alert("Currently not available.");
+              if (lang !== "EN") return alert("Currently not available.");
 
               if (window.innerWidth <= 650) {
                 if (langBar) {

@@ -391,7 +391,10 @@ button {
 }
 
 .close-image {
-  clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+  animation-name: closeImage;
+  animation-duration: 0.5s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
 }
 
 .title-univerzal {
@@ -3015,6 +3018,7 @@ footer {
   }
 
   .image {
+    clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
     width: 100%;
     background-position: center;
     background-size: cover;
