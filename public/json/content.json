@@ -176,6 +176,102 @@
             "project1/project3.jpg",
             "project1/project4.jpg"
           ]
+        },
+        {
+          "title": "Forest house",
+          "sqm": "261 sq.m.",
+          "location": "Switzerland",
+          "image": "project1.jpg",
+          "slider": [
+            "project1/project1.jpg",
+            "project1/project2.jpg",
+            "project1/project3.jpg",
+            "project1/project4.jpg"
+          ]
+        },
+        {
+          "title": "Forest house",
+          "sqm": "261 sq.m.",
+          "location": "Switzerland",
+          "image": "project2.jpg",
+          "slider": [
+            "project1/project1.jpg",
+            "project1/project2.jpg",
+            "project1/project3.jpg",
+            "project1/project4.jpg"
+          ]
+        },
+        {
+          "title": "Forest house",
+          "sqm": "261 sq.m.",
+          "location": "Switzerland",
+          "image": "project3.jpg",
+          "slider": [
+            "project1/project1.jpg",
+            "project1/project2.jpg",
+            "project1/project3.jpg",
+            "project1/project4.jpg"
+          ]
+        },
+        {
+          "title": "Forest house",
+          "sqm": "261 sq.m.",
+          "location": "Switzerland",
+          "image": "project4.jpg",
+          "slider": [
+            "project1/project1.jpg",
+            "project1/project2.jpg",
+            "project1/project3.jpg",
+            "project1/project4.jpg"
+          ]
+        },
+        {
+          "title": "Forest house",
+          "sqm": "261 sq.m.",
+          "location": "Switzerland",
+          "image": "project5.jpg",
+          "slider": [
+            "project1/project1.jpg",
+            "project1/project2.jpg",
+            "project1/project3.jpg",
+            "project1/project4.jpg"
+          ]
+        },
+        {
+          "title": "Forest house",
+          "sqm": "261 sq.m.",
+          "location": "Switzerland",
+          "image": "project6.jpg",
+          "slider": [
+            "project1/project1.jpg",
+            "project1/project2.jpg",
+            "project1/project3.jpg",
+            "project1/project4.jpg"
+          ]
+        },
+        {
+          "title": "Forest house",
+          "sqm": "261 sq.m.",
+          "location": "Switzerland",
+          "image": "project7.jpg",
+          "slider": [
+            "project1/project1.jpg",
+            "project1/project2.jpg",
+            "project1/project3.jpg",
+            "project1/project4.jpg"
+          ]
+        },
+        {
+          "title": "Forest house",
+          "sqm": "261 sq.m.",
+          "location": "Switzerland",
+          "image": "project8.jpg",
+          "slider": [
+            "project1/project1.jpg",
+            "project1/project2.jpg",
+            "project1/project3.jpg",
+            "project1/project4.jpg"
+          ]
         }
       ]
     },

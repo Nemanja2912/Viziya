@@ -57,7 +57,7 @@ const HomeProjects = ({ content }) => {
             scrollRepeat={false}
           />
         </h2>
-        <div>
+        <div className="description">
           <MinemationText
             text={content.homeProjectDescription}
             animationName="fadeInUp"

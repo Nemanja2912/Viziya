@@ -68,7 +68,7 @@ const MinemationText = ({
         delay
       )
     );
-  }, [language]);
+  }, [language, text]);
 
   // Resize event listener
   useEffect(() => {
@@ -90,7 +90,7 @@ const MinemationText = ({
     return () => {
       window.removeEventListener("resize", resize);
     };
-  }, []);
+  }, [text]);
 
   // Enable scroll animation
   useEffect(

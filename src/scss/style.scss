@@ -391,10 +391,7 @@ button {
 }
 
 .close-image {
-  animation-name: closeImage;
-  animation-duration: 0.5s;
-  animation-timing-function: ease;
-  animation-fill-mode: forwards;
+  clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
 }
 
 .title-univerzal {
@@ -1135,6 +1132,10 @@ nav {
     transition-delay: 0.4s;
   }
 
+  .item {
+    line-height: 120% !important;
+  }
+
   .item1 {
     transition-delay: 0.5s;
   }
@@ -1279,8 +1280,8 @@ nav {
 
         @media (max-width: 650px) {
           font-size: 39px;
-          line-height: 52px;
-          margin-bottom: 11px;
+          line-height: 42px;
+          margin-bottom: 8px;
         }
       }
 
@@ -1483,6 +1484,16 @@ nav {
 
     @media (max-width: 650px) {
       display: none;
+    }
+  }
+
+  .description {
+    line-height: 150%;
+  }
+
+  @media (max-width: 650px) {
+    .description {
+      margin-top: -10px;
     }
   }
 
@@ -2985,6 +2996,7 @@ footer {
       }
 
       .active-bottom {
+        transform: translateY(100%);
         animation-name: showText;
         animation-duration: 0.5s;
         animation-timing-function: ease;

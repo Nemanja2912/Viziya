@@ -67,7 +67,7 @@ const ProjectCard = ({
 
           <div className="bottom" ref={containerRef2}>
             <div className={`bottom-box ${startAnimation2 && "active-bottom"}`}>
-              <div className="m2  ">{sq}</div>
+              <div className="m2">{sq}</div>
               <div className="location">
                 <img src={Pointer} alt="" />
                 <p>{location}</p>
